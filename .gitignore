@@ -1,0 +1,9 @@
+.mp3
+.zip
+.gif
+.jpg
+*.log
+*.tmp
+.config
+/node_modules/
+/assets/

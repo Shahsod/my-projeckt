@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ /* Секция header */
+
+.header {
+    display: inline-block;
+    width: 100%;
+    height: 100px;
+    background: rgb(41, 41, 41);
+    border-bottom: 4px solid rgb(90, 90, 90);
+}
+
+.header > h2 {
+    font-size: 29px;
+    display: inline-block;
+    padding: 25px;
+    padding-left: 120px;
+    padding-right: 175px;
+    color: rgb(238, 103, 103);
+}
+
+.header > p > a {
+    text-decoration: none;
+    color: rgb(236, 233, 233);
+}
+
+.header > p  {
+    font-size: 20px;
+    display: inline-block;
+    padding: 35px 20px;
+    color: rgb(236, 233, 233);
+}
+
+.header .last_p {
+    padding-right: 230px;
+}
+
+.header  input {
+    display: inline-block;
+    padding-right: 50px;
+    height: 30px;
+    border: 5px solid rgb(236, 233, 233);
+    border-radius: 5px;
+    background: rgb(236, 233, 233);
+}
+
+/* Секция main */
+/* Секция aside */
+
+#main  {
+    width: 90%;
+    height: auto;
+    display: block;
+    position: inherit;
+    padding-top: 40px;
+    padding-left: 100px;
+}
+
+.main_div {
+    float: left;
+    display: block;
+    width: 50%;
+    height: 450px;
+    border: 1px solid silver;
+    background: rgb(236, 233, 233);
+}
+
+.main_div h2,
+.aside h2 {
+    font-size: 30px;
+    color: rgb(238, 103, 103);
+    padding: 20px;
+}
+
+.main_div p,
+.aside p {
+    font-size: 17px;
+    color: rgb(97, 94, 94);
+    padding-left: 17px;
+    padding-bottom: 15px;
+}
+
+.main_div img {
+    width: 400px;
+    height: auto;
+    padding: 30px 110px;
+}
+
+.aside {
+    float: left;
+    top: 40px;
+    display: block;
+    width: 30%;
+    background:  rgb(236, 233, 233);
+    border: 1px solid silver;
+    padding-left: 5px;
+    margin-left: 75px;
+}
+
+
+/* Секция footer */
+
+.footer {
+    border-top: 4px solid rgb(90, 90, 90);
+    display: inline-block;
+    margin-top: 50px;
+    width: 100%;
+    height: 200px;
+    background: rgb(41, 41, 41);
+}
+
+.footer h1 {
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    color: rgb(236, 233, 233);
+    padding-top: 17px;
+}
+
+.footer .btn {
+    display: inline-block;
+    padding: 25px;
+    margin-left: 430px;
+}
+
+.footer input {
+    text-align: center;
+    padding: 8px;
+    margin-right: 38px;
+    border-radius: 6px;
+    margin-bottom: 18px;
+}
+
+.footer .red {
+    background: rgb(240, 103, 103);
+    color: rgb(236, 233, 233);
+    border: none;
+}
+
+.footer .blue {
+    background: rgb(75, 183, 255);
+    color: rgb(236, 233, 233);
+    border: none;
+}
+
+.footer .violet {
+    background: rgb(102, 102, 253);
+    color: rgb(236, 233, 233);
+    border: none;
+}
+
+.footer .brown {
+    background: rgb(204, 132, 99);
+    color: rgb(236, 233, 233);
+    border: none;
+}
+
+.footer p {
+    padding-left: 30px;
+    color: rgb(236, 233, 233);
+}

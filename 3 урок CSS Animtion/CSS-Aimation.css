@@ -1,0 +1,68 @@
+
+body {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container {
+    width: 600px;
+    height: 350px;
+    background: rgb(238, 238, 238);
+    border: 1px solid rgb(209, 209, 209);
+    margin-top: 100px;    
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.container .block-1 {
+    width: 130px;
+    height: 130px;
+    background:linear-gradient(to bottom, rgba(0, 0, 158, 0.61), rgba(163, 0, 0, 0.788));
+    opacity: 1;
+
+    transition: all 1.5s ease-in-out;
+    -o-transition: all 1.5s ease-in-out;
+    -moz-transition: all 1.5s ease-in-out;
+    -webkit-transition: all 1.5s ease-in-out;
+}
+
+.container .block-1:hover {
+    transform: translateX(100px) translateY(110px);
+    transition: all 1.5s ease-in-out;
+    -o-transition: all 1.5s ease-in-out;
+    -moz-transition: all 1.5s ease-in-out;
+    -webkit-transition: all 1.5s ease-in-out;
+    opacity: 1;
+}
+
+.container .block-2 {
+    width: 130px;
+    height: 130px;
+    background: rgb(206, 116, 116);    
+    align-self: center;
+    z-index: 1;
+}
+
+.container .block-3 {
+    width: 130px;
+    height: 130px;
+    background:linear-gradient(to bottom, rgba(192, 46, 46, 0.788), rgba(163, 0, 0, 0.788));
+    align-self: flex-end;
+    transform-origin: 0 0 0;
+
+    transition: all 1.5s ease-in-out;
+    -o-transition: all 1.5s ease-in-out;
+    -moz-transition: all 1.5s ease-in-out;
+    -webkit-transition: all 1.5s ease-in-out;
+}
+
+.container .block-3:hover {
+    transform: rotate(20deg) scale(1.5);
+    transition: all 1.5s ease-in-out;
+    -o-transition: all 1.5s ease-in-out;
+    -moz-transition: all 1.5s ease-in-out;
+    -webkit-transition: all 1.5s ease-in-out;
+}
